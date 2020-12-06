@@ -1,6 +1,6 @@
 
 dist: trusty
-
+language : "python"
 python:
   - "2.7"
   - "3.7"
@@ -9,7 +9,7 @@ virtualenv:
   system_site_packages: true
 
 install:
- - pip3 install update
+ - pip install --user --upgrade pip
  - pip3 install python3-pyqt5
  - pip3 install openpyxl
  - pip3 install pandas
