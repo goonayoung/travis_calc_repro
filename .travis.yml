@@ -2,6 +2,7 @@ language: python
 
 install : pip install PyQt5
           pip install openpyxl
+          pip install pandas
 
 script : python TDD_Similarity.py 
 
