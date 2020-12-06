@@ -6,10 +6,8 @@ install : pip install PyQt5
           pip install numpy
           pip install sklearn
 
-script : python TDD_Similarity.py 
-         python TDD_GUI_more.py
-         python TDD_GUI_Input.py
-         python TDD_GUI_Setting.py
+script : python TDD_GUI_more.py
+
 
 after_success:
   - codecov
