@@ -12,3 +12,9 @@ virtualenv:
 install:
  - sudo apt-get update
  - sudo apt-get -y install python3-pyqt5
+ - sudo apt-get -y install openpyxl
+ - sudo apt-get -y install pandas
+ - sudo apt-get -y install numpy
+ - sudo apt-get -y install sklearn
+
+
