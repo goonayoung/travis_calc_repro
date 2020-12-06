@@ -2,12 +2,12 @@ language: python
 
 python : 3.6.8
 
-install : pip install pyqt5
+install : pip install pyqt5==5.15.1
           pip install openpyxl
           pip install pandas
           pip install numpy
           pip install sklearn
-          pip install pyqt5-tools
+          pip install pyqt5-tools==5.15.1
 
 script : python TDD_GUI_Setting.py
 
