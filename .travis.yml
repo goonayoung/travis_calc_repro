@@ -10,7 +10,7 @@ python:
   - "nightly"  # nightly build
 # command to install dependencies
 install:
-  - pip install pyqt5
+  - pip install --upgrade --force-reinstall pyqt5
   - pip install openpyxl
   - pip install pandas
   - pip install numpy
