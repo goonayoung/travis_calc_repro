@@ -1,13 +1,12 @@
 language: python
 
-python:
-  -"3.8.3"
+install : pip install PyQt5
+          pip install openpyxl
+          pip install pandas
+          pip install numpy
+          pip install sklearn
 
-before_install:
-  -pip install Twisted
-  -python setup.py install
-  
-script : trial TDD_Similarity.py
+script : python TDD_Similarity.py 
 
 after_success:
   - codecov
