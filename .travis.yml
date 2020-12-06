@@ -1,6 +1,7 @@
 language: python
 
 install : pip install PyQt5
+          pip install openpyxl
 
 script : python TDD_Similarity.py 
 
