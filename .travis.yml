@@ -1,5 +1,4 @@
 language: python
-sudo: required
 dist: trusty
 
 python:
@@ -10,11 +9,11 @@ virtualenv:
   system_site_packages: true
 
 install:
- - sudo apt-get update
- - sudo apt-get -y install python3-pyqt5
- - sudo apt-get -y install openpyxl
- - sudo apt-get -y install pandas
- - sudo apt-get -y install numpy
- - sudo apt-get -y install sklearn
+ - pip3 install update
+ - pip3 install install python3-pyqt5
+ - pip3 install install openpyxl
+ - pip3 install install pandas
+ - pip3 install install numpy
+ - pip3 install install sklearn
 
 
