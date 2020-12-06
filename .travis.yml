@@ -1,5 +1,7 @@
 language: python
 
+install : pip install PyQt5
+
 script : python TDD_Similarity.py 
 
 after_success:
