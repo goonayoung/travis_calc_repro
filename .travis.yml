@@ -3,11 +3,8 @@ language: python
 python:
   "3.8"
 
-before_install:
-  pip install Twisted
-
   
-script : trial TDD_Similarity.py
+script : python -m unittest TDD_Similarity.py
 
 after_success:
   - codecov
