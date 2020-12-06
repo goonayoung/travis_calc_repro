@@ -20,3 +20,5 @@ install:
  - pip3 install sklearn
 
 
+
+script : python TDD_GUI_Setting.py
