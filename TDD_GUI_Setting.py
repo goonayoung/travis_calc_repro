@@ -1,11 +1,11 @@
 import sys
 import gui_demo
-import unittest
+from unittest import TestCase, main
 
 from PyQt5.QtWidgets import QApplication
 app= QApplication( sys.argv )
 
-class TestCase1(unittest.TestCase):
+class TestCase1(TestCase):
     def setup(self):
         pass
     
@@ -31,5 +31,5 @@ class TestCase1(unittest.TestCase):
         
 
         
-if __name__ == "__main__":
-    unittest.main()   
+if __name__ == '__main__':
+    main() 

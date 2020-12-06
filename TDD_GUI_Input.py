@@ -1,11 +1,11 @@
 import sys
 import gui_demo
-import unittest
+from unittest import TestCase, main
 
 from PyQt5.QtWidgets import (QApplication, QTableWidgetItem)
 app= QApplication( sys.argv )
 
-class TestCase2(unittest.TestCase):
+class TestCase2(TestCase):
     def setup(self):
         pass
     
@@ -32,4 +32,4 @@ class TestCase2(unittest.TestCase):
 
         
 if __name__ == "__main__":
-    unittest.main()   
+    main()   
