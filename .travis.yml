@@ -7,7 +7,7 @@ install : pip install PyQt5
           pip install sklearn
           pip install PyQt5-tools
 
-script : python TDD_GUI_more.py
+script : python TDD_GUI_Setting.py
 
 
 after_success:
