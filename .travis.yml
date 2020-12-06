@@ -1,6 +1,8 @@
 language: python
 dist: trusty
-os : windows
+"os": [
+    "windows"
+  ],
 
 python:
   - "2.7"
