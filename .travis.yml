@@ -2,7 +2,7 @@ language: python
 
 
   
-script : trial TDD_Similarity.py
+script : unittest TDD_Similarity.py
 
 after_success:
   - codecov
