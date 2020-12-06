@@ -5,11 +5,10 @@ install : pip install PyQt5
           pip install pandas
           pip install numpy
           pip install sklearn
+          pip install PyQt5-tools
 
-script : python TDD_Similarity.py 
-         python TDD_GUI_more.py
-         python TDD_GUI_Input.py
-         python TDD_GUI_Setting.py
+script : python TDD_GUI_Setting.py
+
 
 after_success:
   - codecov
