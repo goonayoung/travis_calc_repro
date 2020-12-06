@@ -1,19 +1,7 @@
-
 dist: xenial
-language : python
-python:
-    - "3.5.1"
-virtualenv:
-    system_site_packages: true
-
-install:
- - pip install --user --upgrade pip
- - pip install python3-pyqt5
- - pip install openpyxl
- - pip install pandas
- - pip install numpy
- - pip install sklearn
-
-
-
-script : python TDD_GUI_Setting.py
+addons:
+  apt:
+    sources:
+    - deadsnakes
+    packages:
+    - python3.7-dev
