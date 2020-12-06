@@ -1,5 +1,5 @@
 from unittest import TestCase, main
-import SeeReal_KAI_
+import gui_demo
 
 
 
@@ -8,9 +8,9 @@ class TestCase1(TestCase):
         pass
     
     def test_checkSimilarity(self):
-        b=SeeReal_KAI_.Similarity().listToVector(['data is goo','none was bad'])
-        c=SeeReal_KAI_.Similarity().vectorToDense(b)
-        d=SeeReal_KAI_.Similarity().checkSimilarity(c)
+        b=gui_demo().listToVector(['data is goo','none was bad'])
+        c=gui_demo().vectorToDense(b)
+        d=gui_demo().checkSimilarity(c)
         
         self.assertEqual(d,0.0)
         
