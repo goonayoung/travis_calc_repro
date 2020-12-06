@@ -6,7 +6,10 @@ before_install:
   - pip install -U pytest
   - pip install codecov
   
-script : pytest gui_demo.py 
+script : pytest TDD_Similarity.py
+         pytest TDD_GUI_Input.py
+         pytest TDD_GUI_Setting.py
+         pytest TDD_GUI_more.py
 
 after_success:
   - codecov
