@@ -1,5 +1,5 @@
 import sys
-import SeeReal_KAI_
+import gui_demo
 import unittest
 
 from PyQt5.QtWidgets import QApplication
@@ -10,7 +10,7 @@ class TestCase1(unittest.TestCase):
         pass
     
     def test_Set_clicked(self):
-        a = SeeReal_KAI_.MyApp()
+        a = gui_demo.MyApp()
         
         SearchR1 = '3.2.12'
         SearchR2 = '3.2.13'

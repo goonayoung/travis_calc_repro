@@ -1,5 +1,5 @@
 import sys
-import SeeReal_KAI_
+import gui_demo
 import unittest
 
 from PyQt5.QtWidgets import (QApplication, QTableWidgetItem)
@@ -10,7 +10,7 @@ class TestCase3(unittest.TestCase):
         pass
     
     def test_Save_clicked(self):
-        a = SeeReal_KAI_.MyApp()
+        a = gui_demo.MyApp()
         
         inputTable1 = 'Input Source'
         inputTable2 = 'Signal Description'
