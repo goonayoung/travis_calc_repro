@@ -4,10 +4,10 @@ python : 3.7
 
 install : python -m pip install --upgrade pip
           pip3 install pyqt5==5.15.1
-          pip install openpyxl
-          pip install pandas
-          pip install numpy
-          pip install sklearn
+          pip3 install openpyxl
+          pip3 install pandas
+          pip3 install numpy
+          pip3 install sklearn
          
           
 
