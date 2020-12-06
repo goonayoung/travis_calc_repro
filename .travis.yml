@@ -6,7 +6,7 @@ before_install:
   - pip install -U pytest
   - pip install codecov
   
-script : pytest TDD_Similarity.py
+script : unittest TDD_Similarity.py
 
 after_success:
   - codecov
