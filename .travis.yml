@@ -1,13 +1,13 @@
 language: python
 
-python : 3.6.8
+python : 3.6
 
-install : pip install pyqt5==5.15.1
+install : pip3 install pyqt5==5.15.1
           pip install openpyxl
           pip install pandas
           pip install numpy
           pip install sklearn
-          pip install pyqt5-tools==5.15.1
+          pip3 install pyqt5-tools==5.15.1
 
 script : python TDD_GUI_Setting.py
 
