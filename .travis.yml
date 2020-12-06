@@ -9,12 +9,12 @@ virtualenv:
   system_site_packages: true
 
 install:
- - sudo apt-get install update
- - sudo apt-get install python3-pyqt5
- - sudo apt-get openpyxl
- - sudo apt-get pandas
- - sudo apt-get numpy
- - sudo apt-get sklearn
+ - pip3 install update
+ - pip3 install python3-pyqt5
+ - pip3 install openpyxl
+ - pip3 install pandas
+ - pip3 install numpy
+ - pip3 install sklearn
 
 
 
