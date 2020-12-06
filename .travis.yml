@@ -3,6 +3,8 @@ dist: xenial
 language : python
 python:
     - "3.5.1"
+virtualenv:
+    system_site_packages: true
 
 install:
  - pip install --user --upgrade pip
