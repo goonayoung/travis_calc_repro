@@ -8,9 +8,10 @@ class TestCase1(TestCase):
         pass
     
     def test_checkSimilarity(self):
-        b=gui_demo().listToVector(['data is goo','none was bad'])
-        c=gui_demo().vectorToDense(b)
-        d=gui_demo().checkSimilarity(c)
+        test = gui_demo()
+        b=test.listToVector(['data is goo','none was bad'])
+        c=test.vectorToDense(b)
+        d=test.checkSimilarity(c)
         
         self.assertEqual(d,0.0)
         
